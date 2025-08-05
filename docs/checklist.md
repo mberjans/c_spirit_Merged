@@ -28,15 +28,15 @@ _Each ticket begins with tests and ends by re-running tests. IDs are TicketID-Ta
 - [x] INF-002-09: Re-run full test suite; ensure all INF tests pass.
 
 ## INF-003 — Configuration system
-- [ ] INF-003-01: Author unit test plan for **Configuration system** (acceptance criteria → concrete tests).
-- [ ] INF-003-02: Write failing unit tests covering happy path, edge cases, and error handling.
-- [ ] INF-003-03: Create module/package scaffolding and minimal code stubs to satisfy imports (tests still fail).
-- [ ] INF-003-04: Implement functionality (packaging, make/nox tasks, or settings) to satisfy tests.
-- [ ] INF-003-05: Add type hints, docstrings, and README snippets with examples.
-- [ ] INF-003-06: Run linter/formatter; fix issues and enforce pre-commit hooks.
-- [ ] INF-003-07: Run unit tests locally; raise coverage to ≥70%.
-- [ ] INF-003-08: Update CHANGELOG with entry for initial infrastructure feature.
-- [ ] INF-003-09: Re-run full test suite; ensure all INF tests pass.
+- [x] INF-003-01: Author unit test plan for **Configuration system** (acceptance criteria → concrete tests).
+- [x] INF-003-02: Write failing unit tests covering happy path, edge cases, and error handling.
+- [x] INF-003-03: Create module/package scaffolding and minimal code stubs to satisfy imports (tests still fail).
+- [x] INF-003-04: Implement functionality (packaging, make/nox tasks, or settings) to satisfy tests.
+- [x] INF-003-05: Add type hints, docstrings, and README snippets with examples.
+- [x] INF-003-06: Run linter/formatter; fix issues and enforce pre-commit hooks.
+- [x] INF-003-07: Run unit tests locally; raise coverage to ≥70%.
+- [x] INF-003-08: Update CHANGELOG with entry for initial infrastructure feature.
+- [x] INF-003-09: Re-run full test suite; ensure all INF tests pass.
 
 ## INF-004 — Lint/format hooks
 - [ ] INF-004-01: Author unit test plan for **Lint/format hooks** (acceptance criteria → concrete tests).
