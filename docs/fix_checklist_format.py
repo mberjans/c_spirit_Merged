@@ -1,4 +1,22 @@
-import re
+def _normalize_checkbox(line):
+    """Return line with any leading checkbox marker normalized to '- [ ]'."""
+    prefix_spaces = len(line) - len(line.lstrip())
+    leading = line[:prefix_spaces]
+    stripped = line[prefix_spaces:]
+    if stripped.startswith("- [ ]"):
+        return line
+    marker = ""
+    if stripped.startswith("*") or stripped.startswith("-"):
+        marker = stripped[1:]
+    else:
+        return line
+    trimmed = marker.lstrip()
+    cleaned = trimmed.replace("\\[", "[").replace("\\]", "]")
+    if cleaned.startswith("[ ]"):
+        rest = cleaned[3:]
+        return f"{leading}- [ ]{rest}"
+    return line
+
 
 def fix_checkbox_format(input_file, output_file):
     """
@@ -11,12 +29,7 @@ def fix_checkbox_format(input_file, output_file):
 
         corrected_lines = []
         for line in lines:
-            # Replace incorrect checkbox formats with the correct format
-            corrected_line = re.sub(
-                r'^\s*[\*\-]\s*\[ \]|^\s*\*\s*\[ \]|^\s*\*\s*\\\[ \\\]',
-                '- [ ]',
-                line
-            )
+            corrected_line = _normalize_checkbox(line)
             corrected_lines.append(corrected_line)
 
         with open(output_file, 'w') as outfile:

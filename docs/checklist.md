@@ -1,6 +1,10 @@
 # AIM2 Detailed Tiny-Task Checklists (TDD-first)
 _Each ticket begins with tests and ends by re-running tests. IDs are TicketID-TaskNN._
 
+## DOC-001 — Checklist format utility
+- [x] DOC-001-01: Replace regex usage in `docs/fix_checklist_format.py` with custom pattern matching.
+- [x] DOC-001-02: Add unit tests for `fix_checkbox_format`.
+
 ## INF-001 — Repo skeleton & packaging
 - [ ] INF-001-01: Author unit test plan for **Repo skeleton & packaging** (acceptance criteria → concrete tests).
 - [ ] INF-001-02: Write failing unit tests covering happy path, edge cases, and error handling.
