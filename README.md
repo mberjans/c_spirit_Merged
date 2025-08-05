@@ -25,3 +25,8 @@ from aim2.infra.config import AppSettings, load_config
 settings = load_config(Path("app.yaml"), AppSettings)
 print(settings.app_name)
 ```
+
+## Linting
+```bash
+pre-commit run --files src/aim2/__init__.py
+```
