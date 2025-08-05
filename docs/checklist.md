@@ -17,15 +17,15 @@ _Each ticket begins with tests and ends by re-running tests. IDs are TicketID-Ta
 - [x] INF-001-09: Re-run full test suite; ensure all INF tests pass.
 
 ## INF-002 — Task runner & reproducible env
-- [ ] INF-002-01: Author unit test plan for **Task runner & reproducible env** (acceptance criteria → concrete tests).
-- [ ] INF-002-02: Write failing unit tests covering happy path, edge cases, and error handling.
-- [ ] INF-002-03: Create module/package scaffolding and minimal code stubs to satisfy imports (tests still fail).
-- [ ] INF-002-04: Implement functionality (packaging, make/nox tasks, or settings) to satisfy tests.
-- [ ] INF-002-05: Add type hints, docstrings, and README snippets with examples.
-- [ ] INF-002-06: Run linter/formatter; fix issues and enforce pre-commit hooks.
-- [ ] INF-002-07: Run unit tests locally; raise coverage to ≥70%.
-- [ ] INF-002-08: Update CHANGELOG with entry for initial infrastructure feature.
-- [ ] INF-002-09: Re-run full test suite; ensure all INF tests pass.
+- [x] INF-002-01: Author unit test plan for **Task runner & reproducible env** (acceptance criteria → concrete tests).
+- [x] INF-002-02: Write failing unit tests covering happy path, edge cases, and error handling.
+- [x] INF-002-03: Create module/package scaffolding and minimal code stubs to satisfy imports (tests still fail).
+- [x] INF-002-04: Implement functionality (packaging, make/nox tasks, or settings) to satisfy tests.
+- [x] INF-002-05: Add type hints, docstrings, and README snippets with examples.
+- [x] INF-002-06: Run linter/formatter; fix issues and enforce pre-commit hooks.
+- [x] INF-002-07: Run unit tests locally; raise coverage to ≥70%.
+- [x] INF-002-08: Update CHANGELOG with entry for initial infrastructure feature.
+- [x] INF-002-09: Re-run full test suite; ensure all INF tests pass.
 
 ## INF-003 — Configuration system
 - [ ] INF-003-01: Author unit test plan for **Configuration system** (acceptance criteria → concrete tests).
