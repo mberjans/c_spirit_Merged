@@ -1,0 +1,9 @@
+classes:
+  Item:
+    label: Sample
+    synonyms:
+      - Example
+    definition: Sample item
+    xrefs:
+      - EX:1
+slots: {}
