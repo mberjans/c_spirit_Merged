@@ -6,15 +6,15 @@ _Each ticket begins with tests and ends by re-running tests. IDs are TicketID-Ta
 - [x] DOC-001-02: Add unit tests for `fix_checkbox_format`.
 
 ## INF-001 — Repo skeleton & packaging
-- [ ] INF-001-01: Author unit test plan for **Repo skeleton & packaging** (acceptance criteria → concrete tests).
-- [ ] INF-001-02: Write failing unit tests covering happy path, edge cases, and error handling.
-- [ ] INF-001-03: Create module/package scaffolding and minimal code stubs to satisfy imports (tests still fail).
-- [ ] INF-001-04: Implement functionality (packaging, make/nox tasks, or settings) to satisfy tests.
-- [ ] INF-001-05: Add type hints, docstrings, and README snippets with examples.
-- [ ] INF-001-06: Run linter/formatter; fix issues and enforce pre-commit hooks.
-- [ ] INF-001-07: Run unit tests locally; raise coverage to ≥70%.
-- [ ] INF-001-08: Update CHANGELOG with entry for initial infrastructure feature.
-- [ ] INF-001-09: Re-run full test suite; ensure all INF tests pass.
+- [x] INF-001-01: Author unit test plan for **Repo skeleton & packaging** (acceptance criteria → concrete tests).
+- [x] INF-001-02: Write failing unit tests covering happy path, edge cases, and error handling.
+- [x] INF-001-03: Create module/package scaffolding and minimal code stubs to satisfy imports (tests still fail).
+- [x] INF-001-04: Implement functionality (packaging, make/nox tasks, or settings) to satisfy tests.
+- [x] INF-001-05: Add type hints, docstrings, and README snippets with examples.
+- [x] INF-001-06: Run linter/formatter; fix issues and enforce pre-commit hooks.
+- [x] INF-001-07: Run unit tests locally; raise coverage to ≥70%.
+- [x] INF-001-08: Update CHANGELOG with entry for initial infrastructure feature.
+- [x] INF-001-09: Re-run full test suite; ensure all INF tests pass.
 
 ## INF-002 — Task runner & reproducible env
 - [ ] INF-002-01: Author unit test plan for **Task runner & reproducible env** (acceptance criteria → concrete tests).
