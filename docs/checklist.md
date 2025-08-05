@@ -50,16 +50,16 @@ _Each ticket begins with tests and ends by re-running tests. IDs are TicketID-Ta
 - [x] INF-004-09: Re-run full test suite; ensure all INF tests pass.
 
 ## ON-010 — Three-facet schema (Structural / Source / Functional)
-- [ ] ON-010-01: Author unit test plan for **Three-facet schema (Structural / Source / Functional)** (acceptance criteria → concrete tests).
-- [ ] ON-010-02: Write failing unit tests covering happy path, edge cases, and error handling.
-- [ ] ON-010-03: Implement core logic (schema/load/normalize/trim/relations/build/export/provenance as applicable).
-- [ ] ON-010-04: Add validators (schema/SHACL/OWL) and constraint checks; surface actionable errors.
-- [ ] ON-010-05: Add CLI command for the module (if applicable) with example config and sample fixture data.
-- [ ] ON-010-06: Document YAML/JSON schemas and provide minimal fixtures under `tests/fixtures/ontology`.
-- [ ] ON-010-07: Measure runtime on small fixture; optimize hotspots if >2× budget.
-- [ ] ON-010-08: Run unit tests; ensure coverage ≥80% for this module.
-- [ ] ON-010-09: Add an ontology-specific integration test (build→validate→export roundtrip on tiny fixture).
-- [ ] ON-010-10: Re-run all tests; confirm ON-* modules are green.
+- [x] ON-010-01: Author unit test plan for **Three-facet schema (Structural / Source / Functional)** (acceptance criteria → concrete tests).
+- [x] ON-010-02: Write failing unit tests covering happy path, edge cases, and error handling.
+- [x] ON-010-03: Implement core logic (schema/load/normalize/trim/relations/build/export/provenance as applicable).
+- [x] ON-010-04: Add validators (schema/SHACL/OWL) and constraint checks; surface actionable errors.
+- [x] ON-010-05: Add CLI command for the module (if applicable) with example config and sample fixture data.
+- [x] ON-010-06: Document YAML/JSON schemas and provide minimal fixtures under `tests/fixtures/ontology`.
+- [x] ON-010-07: Measure runtime on small fixture; optimize hotspots if >2× budget.
+- [x] ON-010-08: Run unit tests; ensure coverage ≥80% for this module.
+- [x] ON-010-09: Add an ontology-specific integration test (build→validate→export roundtrip on tiny fixture).
+- [x] ON-010-10: Re-run all tests; confirm ON-* modules are green.
 
 ## ON-011 — External ontology loaders
 - [ ] ON-011-01: Author unit test plan for **External ontology loaders** (acceptance criteria → concrete tests).

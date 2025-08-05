@@ -30,3 +30,21 @@ print(settings.app_name)
 ```bash
 pre-commit run --files src/aim2/__init__.py
 ```
+
+## Ontology schema
+```bash
+aim2-ontology --schema tests/fixtures/ontology/minimal_schema.yaml
+```
+
+Example schema:
+```yaml
+classes:
+  Item:
+    label: Sample
+    synonyms:
+      - Example
+    definition: Sample item
+    xrefs:
+      - EX:1
+slots: {}
+```

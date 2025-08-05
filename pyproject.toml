@@ -18,3 +18,5 @@ line-length = 88
 
 [tool.isort]
 profile = "black"
+[project.scripts]
+aim2-ontology = "aim2.cli.ontology:main"
